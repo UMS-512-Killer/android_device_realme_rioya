@@ -47,6 +47,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    log_to_csv.sh \
+    loading.sh \
+    para.sh \
+    total.sh \
+    engineer_vendor_shell.sh \
+
+PRODUCT_PACKAGES += \
+    fstab.S19610AA1 \
+    fstab.S19610AA1.ramdisk \
+    init.S19610AA1.rc \
+    init.S19610AA1.usb.rc \
+    init.cali.rc \
+    init.factorytest.rc \
+    init.ram.rc \
+    init.storage.rc \
+    init.recovery.S19610AA1.rc \
+    init.recovery.common.rc \
+    ueventd.S19610AA1.rc \
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
