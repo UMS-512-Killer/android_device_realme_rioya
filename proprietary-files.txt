@@ -230,7 +230,6 @@ vendor/lib/libsensor_y_gc5035_front_cxt_2.so
 vendor/lib/libsensor_y_hi1336_main_txd.so
 vendor/lib/libsensor_y_hi556_front_ly.so
 vendor/lib/libsensor_y_s5k3l6xx03_main_xl_2.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/libsprd_portrait_cap.so
 vendor/lib/libsprd_portrait_cap_adapter.so
 vendor/lib/libsprdbokeh.so
@@ -411,7 +410,6 @@ vendor/lib64/libsensor_y_gc5035_front_cxt_2.so
 vendor/lib64/libsensor_y_hi1336_main_txd.so
 vendor/lib64/libsensor_y_hi556_front_ly.so
 vendor/lib64/libsensor_y_s5k3l6xx03_main_xl_2.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsprd_portrait_cap.so
 vendor/lib64/libsprd_portrait_cap_adapter.so
 vendor/lib64/libsprdbokeh.so
@@ -1156,14 +1154,10 @@ vendor/bin/hw/android.hardware.secure_element@1.2-service
 vendor/lib64/ls_client.so
 
 # Sensors
-vendor/bin/hw/android.hardware.sensors@1.0-service
-vendor/etc/init/android.hardware.sensors@1.0-service.rc
-vendor/lib/hw/android.hardware.sensors@1.0-impl.so
 vendor/lib/hw/sensors.ums512.so
 vendor/lib/libsensorlistcfg.so
 vendor/lib/libsensornpi.so
 vendor/lib/libsensorsdrvcfg.so
-vendor/lib64/hw/android.hardware.sensors@1.0-impl.so
 vendor/lib64/hw/sensors.ums512.so
 vendor/lib64/libsensorlistcfg.so
 vendor/lib64/libsensornpi.so

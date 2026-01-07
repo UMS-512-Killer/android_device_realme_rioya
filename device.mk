@@ -123,6 +123,16 @@ PRODUCT_PACKAGES += \
     init.recovery.common.rc \
     ueventd.S19610AA1.rc \
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0-impl \
+    android.hardware.sensors@1.0-service
+
+# Sensors
+PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0.vendor \
+    libsensorndkbridge
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
