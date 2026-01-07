@@ -85,6 +85,11 @@ PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0 \
     android.hardware.broadcastradio@1.0-impl
 
+# Biometrics
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.face@1.0 \
+    android.hardware.biometrics.fingerprint@2.1
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
@@ -108,6 +113,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0 \
+    libgatekeeper.vendor
 
 # GNSS
 PRODUCT_PACKAGES += \
@@ -149,7 +159,6 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor \
-    libgatekeeper.vendor \
     libkeymaster4.vendor \
     libkeymaster41.vendor \
     libkeymaster4support.vendor \
@@ -166,6 +175,11 @@ PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
     libkeystore-engine-wifi-hidl
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-V1-ndk_platform \
+    android.hardware.light@2.0
+
 # Media
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -178,6 +192,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service
+
+# Neural networks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3
+
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -230,7 +252,14 @@ PRODUCT_COPY_FILES += \
 
 # Power stats
 PRODUCT_PACKAGES += \
-    android.hardware.power.stats@1.0-service.mock
+    android.hardware.power.stats@1.0-service.mock \
+    android.hardware.power-V1-ndk_platform
+
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0 \
+    android.hardware.radio@1.5.vendor
 
 # Rebootescrow
 PRODUCT_PACKAGES += \
@@ -261,12 +290,15 @@ PRODUCT_PACKAGES += \
     init.recovery.common.rc \
     ueventd.S19610AA1.rc \
 
+# Secure elements
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.2
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service
 
-# Sensors
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     libsensorndkbridge
@@ -278,9 +310,21 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0 \
+
 # Trusty
 PRODUCT_PACKAGES += \
     libtrusty.vendor
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.1
+
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-V1-ndk_platform
 
 # Wifi
 PRODUCT_COPY_FILES += \
