@@ -459,11 +459,6 @@ vendor/lib64/libvsp_ca.so
 vendor/lib64/libyuv420_scaler.so
 vendor/lib64/vendor.sprd.hardware.vdsp@1.0.so
 
-# CAS
-vendor/bin/hw/android.hardware.cas@1.2-service
-vendor/etc/init/android.hardware.cas@1.2-service.rc
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml
-
 # Charger
 vendor/etc/res/images/colon_1080X1920.png
 vendor/etc/res/images/colon_1440X2560.png

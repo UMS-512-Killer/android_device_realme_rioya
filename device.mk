@@ -85,6 +85,10 @@ PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0 \
     android.hardware.broadcastradio@1.0-impl
 
+# CAS
+PRODUCT_PACKAGES += \
+    android.hardware.cas@1.2-service-lazy
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
