@@ -53,9 +53,7 @@ vendor/bin/hw/vendor.sprd.hardware.broadcastradio@2.0-service
 vendor/etc/init/vendor.sprd.hardware.broadcastradio@2.0-service.rc
 
 # Camera
-vendor/bin/hw/android.hardware.camera.provider@2.4-service
 vendor/bin/hw/vendor.sprd.hardware.vdsp@1.0-service-lazy
-vendor/etc/init/android.hardware.camera.provider@2.4-service.rc
 vendor/etc/init/camera.rc
 vendor/etc/init/init.sprd_vdsp.rc
 vendor/etc/init/vendor.sprd.hardware.vdsp@1.0-service-lazy.rc
@@ -99,7 +97,6 @@ vendor/etc/otpdata/spw_input_parameters_values.txt
 vendor/etc/vintf/manifest/vendor.sprd.hardware.vdsp@1.0-service-lazy.xml
 vendor/etc/sprd_hdr_tuning.param
 vendor/lib/hw/camera.ums512.so
-vendor/lib/camera.device@1.0-impl.so
 vendor/lib/camera.device@3.2-impl-sprd.so
 vendor/lib/camera.device@3.3-impl-sprd.so
 vendor/lib/camera.device@3.4-external-impl-sprd.so
@@ -279,7 +276,6 @@ vendor/lib/libvsp_ca.so
 vendor/lib/libyuv420_scaler.so
 vendor/lib/vendor.sprd.hardware.vdsp@1.0.so
 vendor/lib64/hw/camera.ums512.so
-vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl-sprd.so
 vendor/lib64/camera.device@3.3-impl-sprd.so
 vendor/lib64/camera.device@3.4-external-impl-sprd.so
