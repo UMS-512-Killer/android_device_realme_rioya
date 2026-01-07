@@ -1168,17 +1168,9 @@ vendor/lib/hw/vibrator.ums512.so
 vendor/lib64/hw/vibrator.ums512.so
 
 # Wi-Fi
-vendor/bin/hw/android.hardware.wifi@1.0-service
-vendor/bin/hw/hostapd
-vendor/bin/hw/wpa_supplicant
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/android.hardware.wifi@1.0-service.rc
-vendor/etc/init/hostapd.android.rc
-vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
-vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
 vendor/lib/liblowi_wifihal.so
 vendor/lib/libwifi-hal.so
-vendor/lib/libwpa_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libwifi-hal.so
 
