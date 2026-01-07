@@ -838,9 +838,6 @@ vendor/bin/hw/android.hardware.keymaster@4.1-unisoc.service
 vendor/bin/keymaster_ready
 vendor/etc/init/android.hardware.keymaster@4.1-unisoc.service.rc
 vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-unisoc.service.xml
-vendor/lib64/libkeymaster4.so
-vendor/lib64/libkeymaster41.so
-vendor/lib64/libkeymaster4_1support.so
 
 # Interfaces
 vendor/bin/hw/interfaces.factoryInterface@1.0-service
@@ -1186,8 +1183,6 @@ vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
 vendor/lib/liblowi_wifihal.so
 vendor/lib/libwifi-hal.so
 vendor/lib/libwpa_client.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libwifi-hal.so
 
@@ -1351,7 +1346,6 @@ vendor/lib64/libnavcore.so
 vendor/lib64/libnight.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaiclib.so
-vendor/lib64/libsoft_attestation_cert.so
 vendor/lib64/libspafv1.so
 vendor/lib64/libspcaftrigger.so
 vendor/lib64/libsprd_fcell_ss.so

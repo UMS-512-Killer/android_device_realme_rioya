@@ -108,6 +108,26 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1.vendor \
+    libgatekeeper.vendor \
+    libkeymaster4.vendor \
+    libkeymaster41.vendor \
+    libkeymaster4support.vendor \
+    libkeymaster4_1support.vendor \
+    libkeymaster_messages.vendor \
+    libkeymaster_portable.vendor \
+    libsoft_attestation_cert.vendor \
+    libpuresoftkeymasterdevice.vendor
+
+# Keystore
+PRODUCT_PACKAGES += \
+    android.system.wifi.keystore@1.0.vendor \
+    libcppbor_external.vendor \
+    libkeystore-wifi-hidl \
+    libkeystore-engine-wifi-hidl
+
 # Media
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/media/,$(TARGET_COPY_OUT_VENDOR)/etc)
