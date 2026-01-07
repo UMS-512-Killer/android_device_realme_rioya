@@ -129,6 +129,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.mock
 
+# Rebootescrow
+PRODUCT_PACKAGES += \
+    android.hardware.rebootescrow-service.default
+
 # Rootdir
 PRODUCT_PACKAGES += \
     log_to_csv.sh \

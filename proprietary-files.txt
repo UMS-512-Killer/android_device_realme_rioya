@@ -1114,11 +1114,6 @@ vendor/lib64/librilcore.so
 vendor/lib64/vendor.sprd.hardware.radio.ims@1.0.so
 vendor/lib64/vendor.sprd.hardware.radio@1.0.so
 
-# Reboot escrow
-vendor/bin/hw/android.hardware.rebootescrow-service.default
-vendor/etc/init/rebootescrow-default.rc
-vendor/etc/vintf/manifest/rebootescrow-default.xml
-
 # RenderScript
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
