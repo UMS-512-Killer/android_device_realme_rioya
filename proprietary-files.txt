@@ -736,7 +736,7 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/vendor.focaltech.fingerprint@1.0-service.rc
 vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc
 vendor/etc/init/vendor.sprd.hardware.fingerprintmmi@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
+vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml:vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service-sprd.xml
 vendor/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml
 vendor/lib/hw/fingerprint.silead.default.so
 vendor/lib/hw/vendor.sprd.hardware.fingerprintmmi@1.0-impl.so
@@ -808,7 +808,7 @@ vendor/firmware/warp_cadence.bin
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service.trusty
 vendor/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc
-vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml
+vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml:vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.unisoc.xml
 
 # GNSS
 vendor/bin/hw/vendor.sprd.hardware.gnss@2.1-service
@@ -991,7 +991,7 @@ vendor/lib64/npidevice/liblcdnpi.so
 # Lights
 vendor/bin/hw/vendor.sprd.hardware.lights-service
 vendor/etc/init/lights.rc
-vendor/etc/vintf/manifest/lights.xml
+vendor/etc/vintf/manifest/lights.xml:vendor/etc/vintf/manifest/lights-sprd.xml
 
 # Log
 vendor/bin/hw/vendor.sprd.hardware.cplog_connmgr@1.0-service
@@ -1075,7 +1075,7 @@ vendor/bin/power/tops/readme
 vendor/bin/power/tops/tops
 vendor/bin/power/total/readme
 vendor/etc/init/vendor-power-default.rc
-vendor/etc/vintf/manifest/vendor-power-default.xml
+vendor/etc/vintf/manifest/vendor-power-default.xml:vendor/etc/vintf/manifest/vendor-power-sprd.xml
 vendor/etc/appPowerSaveConfig.xml
 vendor/etc/power_info.db
 vendor/etc/power_resource_file_info.xml
@@ -1123,7 +1123,7 @@ vendor/bin/hw/vendor.sprd.hardware.thermal@2.0-service
 vendor/bin/thermald
 vendor/etc/init/thermald.rc
 vendor/etc/init/vendor.sprd.hardware.thermal@2.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml
+vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml:vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service-sprd.xml
 vendor/etc/vintf/manifest/vendor.sprd.hardware.thermal@2.0-service.xml
 vendor/etc/thermal.conf
 vendor/lib/hw/thermal.default.so
@@ -1158,7 +1158,7 @@ vendor/etc/init/android.hardware.usb@1.1-service.rc
 vendor/bin/hw/vendor.sprd.hardware.vibrator-service
 vendor/etc/init/init.vibdrv.rc
 vendor/etc/init/vibrator.rc
-vendor/etc/vintf/manifest/vibrator.xml
+vendor/etc/vintf/manifest/vibrator.xml:vendor/etc/vintf/manifest/vibrator-sprd.xml
 vendor/lib/hw/vibrator.ums512.so
 vendor/lib64/hw/vibrator.ums512.so
 
