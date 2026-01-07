@@ -1148,12 +1148,10 @@ vendor/etc/init/tsupplicant.rc
 vendor/lib/librbs_trustyclient.so
 vendor/lib/librpmbclient.so
 vendor/lib/libteeproduction.so
-vendor/lib/libtrusty.so
 vendor/lib64/libkernelbootcp.trusty.so
 vendor/lib64/librbs_trustyclient.so
 vendor/lib64/librpmbclient.so
 vendor/lib64/libteeproduction.so
-vendor/lib64/libtrusty.so
 
 # USB
 vendor/bin/hw/android.hardware.usb@1.1-service
