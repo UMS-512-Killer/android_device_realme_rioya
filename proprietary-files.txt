@@ -1,37 +1,20 @@
 # Unpinned blobs from S19610AA1_ctcc-user 11 RP1A.201005.001 33520 release-keys
 
 # Audio
-vendor/bin/hw/android.hardware.audio.service
-vendor/etc/init/android.hardware.audio.service.rc
-vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib/hw/android.hardware.audio@6.0-impl.so
-vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.ums512.so
-vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/libalsa_utils.so
-vendor/lib/libalsautils.so
 vendor/lib/libatci.so
 vendor/lib/libaudiodump.so
 vendor/lib/libdumpcommon.so
 vendor/lib/libsprdaudiohal@5.0.so
 vendor/lib/libsprdaudiohal@6.0.so
 vendor/lib/libsprdaudiohal_deathhandlerv6.so
-vendor/lib/libtinycompress_util.so
-vendor/lib/libtinyxml.so
 vendor/lib/libunisocpreprocessing.so
-vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio@6.0-impl.so
-vendor/lib64/hw/audio.primary.default.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
-vendor/lib64/libalsautils.so
 vendor/lib64/libatci.so
 vendor/lib64/libdumpcommon.so
 vendor/lib64/libsprdaudiohal@5.0.so
 vendor/lib64/libsprdaudiohal@6.0.so
 vendor/lib64/libsprdaudiohal_deathhandlerv6.so
-vendor/lib64/libtinyxml.so
 vendor/media/audio_sample.pcm
 
 # Audio (FX modules)
@@ -49,22 +32,20 @@ vendor/lib64/libsprdaudiohalv6.so
 vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc
 vendor/bin/btools
 vendor/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc
+vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-unisoc.so
+vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl-unisoc.so
 vendor/etc/bt_configure_612rf.ini
 vendor/etc/bt_configure_pskey.ini
 vendor/etc/bt_configure_pskey_aa.ini
 vendor/etc/bt_configure_rf.ini
 vendor/etc/bt_configure_rf_aa.ini
-vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/hw/audio.bluetooth.ums512.so
 vendor/lib/libbluetooth_audio_session_unisoc.so
 vendor/lib/libbt-sprd_suite.so
-vendor/lib/libbt-vendor.so
 vendor/lib/libsysoffloadstream.so
-vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/hw/audio.bluetooth.ums512.so
 vendor/lib64/libbluetooth_audio_session_unisoc.so
 vendor/lib64/libbt-sprd_suite.so
-vendor/lib64/libbt-vendor.so
 vendor/lib64/libsysoffloadstream.so
 
 # Broadcast radio
@@ -1348,7 +1329,6 @@ vendor/lib/libae.so
 vendor/lib/libae3.x.so
 vendor/lib/libalsc.so
 vendor/lib/libatm.so
-vendor/lib/libaudiofoundation.so
 vendor/lib/libaudionpi.so
 vendor/lib/libavutil-56.so
 vendor/lib/libawb.so
@@ -1394,7 +1374,6 @@ vendor/lib64/libae.so
 vendor/lib64/libae3.x.so
 vendor/lib64/libalsc.so
 vendor/lib64/libatm.so
-vendor/lib64/libaudiofoundation.so
 vendor/lib64/libaudionpi.so
 vendor/lib64/libawb.so
 vendor/lib64/libawb1.so
