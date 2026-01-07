@@ -119,6 +119,19 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor
 
+# Graphics
+PRODUCT_PACKAGES += \
+    android.frameworks.displayservice@1.0.vendor \
+    android.hardware.graphics.allocator@2.0.vendor \
+    android.hardware.graphics.allocator@3.0.vendor \
+    android.hardware.graphics.allocator@4.0.vendor \
+    libdrm.vendor \
+    libhwc2on1adapter \
+    libhwc2onfbadapter
+
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.1-service \
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
