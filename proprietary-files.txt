@@ -51,8 +51,6 @@ vendor/lib64/libsysoffloadstream.so
 # Broadcast radio
 vendor/bin/hw/vendor.sprd.hardware.broadcastradio@2.0-service
 vendor/etc/init/vendor.sprd.hardware.broadcastradio@2.0-service.rc
-vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so
-vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so
 
 # Camera
 vendor/bin/hw/android.hardware.camera.provider@2.4-service

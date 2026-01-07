@@ -80,6 +80,11 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     libbt-vendor
 
+# Broadcast
+PRODUCT_PACKAGES += \
+    android.hardware.broadcastradio@1.0 \
+    android.hardware.broadcastradio@1.0-impl
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
