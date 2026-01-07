@@ -1114,10 +1114,6 @@ vendor/lib64/librilcore.so
 vendor/lib64/vendor.sprd.hardware.radio.ims@1.0.so
 vendor/lib64/vendor.sprd.hardware.radio@1.0.so
 
-# RenderScript
-vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
-vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
-
 # Secure element
 vendor/bin/hw/android.hardware.secure_element@1.2-service
 vendor/lib64/ls_client.so

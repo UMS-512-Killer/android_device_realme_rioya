@@ -133,6 +133,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.rebootescrow-service.default
 
+# Renderscript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # Rootdir
 PRODUCT_PACKAGES += \
     log_to_csv.sh \
