@@ -596,12 +596,9 @@ vendor/lib64/vendor.sprd.hardware.connmgr@1.0.so
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service
 vendor/bin/hw/android.hardware.graphics.composer@2.1-service
-vendor/bin/hw/android.hardware.memtrack@1.0-service
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc
 vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
-vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/lib/egl/libGLES_mali.so
-vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/dpu.ums512.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gsp.ums512.so
@@ -613,7 +610,6 @@ vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/arm.graphics-V2-ndk.so
 vendor/lib/arm.graphics-V2-ndk_platform.so
 vendor/lib64/egl/libGLES_mali.so
-vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/dpu.ums512.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gsp.ums512.so
