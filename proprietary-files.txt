@@ -837,11 +837,6 @@ vendor/lib64/hw/vendor.sprd.hardware.gnss@2.1-impl.so
 vendor/lib64/libgnssmgt.so
 vendor/lib64/vendor.sprd.hardware.gnss@2.1.so
 
-# Health
-vendor/bin/hw/android.hardware.health@2.1-service
-vendor/etc/init/android.hardware.health@2.1-service.rc
-vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
-
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-unisoc.service
 vendor/bin/keymaster_ready
