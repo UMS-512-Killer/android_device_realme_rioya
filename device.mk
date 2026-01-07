@@ -125,6 +125,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service
 
+# Power stats
+PRODUCT_PACKAGES += \
+    android.hardware.power.stats@1.0-service.mock
+
 # Rootdir
 PRODUCT_PACKAGES += \
     log_to_csv.sh \

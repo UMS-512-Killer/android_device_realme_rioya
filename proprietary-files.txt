@@ -1047,7 +1047,6 @@ vendor/etc/parameter-framework/Structure/Policy/ProductStrategies.xml
 vendor/etc/parameter-framework/ParameterFrameworkConfigurationPolicy.xml
 
 # Power
-vendor/bin/hw/android.hardware.power.stats@1.0-service.mock
 vendor/bin/hw/vendor.unisoc.hardware.power-service
 vendor/bin/power/backlight/readme
 vendor/bin/power/cpu/dvfs/readme
@@ -1085,9 +1084,7 @@ vendor/bin/power/paras/readme
 vendor/bin/power/tops/readme
 vendor/bin/power/tops/tops
 vendor/bin/power/total/readme
-vendor/etc/init/android.hardware.power.stats@1.0-service.rc
 vendor/etc/init/vendor-power-default.rc
-vendor/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml
 vendor/etc/vintf/manifest/vendor-power-default.xml
 vendor/etc/appPowerSaveConfig.xml
 vendor/etc/power_info.db
