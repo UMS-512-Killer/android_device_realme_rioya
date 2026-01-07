@@ -855,8 +855,6 @@ vendor/lib64/interfaces.factoryInterface@1.0-adapter-helper.so
 vendor/lib64/interfaces.factoryInterface@1.0.so
 
 # Media
-vendor/bin/hw/android.hardware.media.omx@1.0-service
-vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/lib/libavcodec-58.so
 vendor/lib/libjpeg_hw_sprd.so
 vendor/lib/libjpegenc_sw_sprd.so

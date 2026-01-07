@@ -121,6 +121,10 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service
 
+# OMX
+PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-service
+
 # Rootdir
 PRODUCT_PACKAGES += \
     log_to_csv.sh \
