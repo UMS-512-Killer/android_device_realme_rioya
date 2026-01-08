@@ -805,6 +805,16 @@ vendor/firmware/txd_ili7806s.bin
 vendor/firmware/vdsp_firmware.bin
 vendor/firmware/warp_cadence.bin
 
+# Firmware (recovery)
+vendor/firmware/Himax_HX83102D_sky_mpfw.bin:recovery/root/vendor/firmware/Himax_HX83102D_sky_mpfw.bin
+vendor/firmware/Himax_mpfw.bin:recovery/root/vendor/firmware/Himax_mpfw.bin
+vendor/firmware/ICNL9911.bin:recovery/root/vendor/firmware/ICNL9911.bin
+vendor/firmware/ICNL9911_XL.bin:recovery/root/vendor/firmware/ICNL9911_XL.bin
+vendor/firmware/Normal_fts8006saa_Holitech_BOE.bin:recovery/root/vendor/firmware/Normal_fts8006saa_Holitech_BOE.bin
+vendor/firmware/focaltech-FT5x46.bin:recovery/root/vendor/firmware/focaltech-FT5x46.bin
+vendor/firmware/sky_ili9882q.bin:recovery/root/vendor/firmware/sky_ili9882q.bin
+vendor/firmware/txd_ili7806s.bin:recovery/root/vendor/firmware/txd_ili7806s.bin
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service.trusty
 vendor/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc
