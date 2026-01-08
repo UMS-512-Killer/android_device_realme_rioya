@@ -59,6 +59,9 @@ TARGET_PREBUILT_KERNEL := $(KERNEL_PATH)/kernel
 TARGET_PREBUILT_DTB := $(KERNEL_PATH)/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
 
+# Display
+TARGET_SCREEN_DENSITY := 320
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
