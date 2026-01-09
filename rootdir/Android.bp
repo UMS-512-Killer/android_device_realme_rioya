@@ -92,3 +92,10 @@ prebuilt_etc {
     vendor: true,
     ramdisk_available: true,
 }
+
+prebuilt_etc {
+    name: "fstab.cali",
+    src: "etc/fstab.cali",
+    vendor: true,
+    ramdisk_available: true,
+}

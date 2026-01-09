@@ -279,6 +279,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.S19610AA1 \
+    fstab.cali \
     fstab.S19610AA1.ramdisk \
     init.S19610AA1.rc \
     init.S19610AA1.usb.rc \
