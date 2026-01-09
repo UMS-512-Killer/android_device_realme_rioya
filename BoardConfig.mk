@@ -1,10 +1,8 @@
-med@v8c:~/los19$ cat device/realme/rioya/BoardConfig.mk
 #
 # Copyright (C) 2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-#BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 DEVICE_PATH := device/realme/rioya
 KERNEL_PATH :=  $(DEVICE_PATH)-kernel
 
@@ -53,16 +51,12 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := RMX3261_defconfig
-TARGET_KERNEL_SOURCE := kernel/realme/RMX3261
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
-# Kernel - prebuilt
-TARGET_FORCE_PREBUILT_KERNEL := true
-ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
-TARGET_PREBUILT_KERNEL := $(KERNEL_PATH)/kernel
-TARGET_PREBUILT_DTB := $(KERNEL_PATH)/dtb.img
-BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
-endif
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_CONFIG := rioy_defconfig
+TARGET_KERNEL_SOURCE := kernel/realme/rioya
 
 # Display
 TARGET_SCREEN_DENSITY := 320
@@ -75,6 +69,7 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
+    dtbo \
     product \
     system \
     system_ext \
